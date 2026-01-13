@@ -66,11 +66,19 @@ struct CameraScannerView: View {
                             .font(.subheadline)
                             .foregroundStyle(.secondary)
                     }
-                    Button("Scan Another") { isPresentingCheck = false }
-                        .buttonStyle(.borderedProminent)
                 }
                 .padding(16)
                 .background(.ultraThinMaterial, in: RoundedRectangle(cornerRadius: 16))
+                .overlay(alignment: .topTrailing) {
+                    Button(action: { isPresentingCheck = false }) {
+                        Image(systemName: "xmark")
+                            .font(.system(size: 14, weight: .bold))
+                            .foregroundStyle(.secondary)
+                            .padding(8)
+                    }
+                    .buttonStyle(.plain)
+                    .accessibilityLabel("Close")
+                }
                 .padding()
             }
         }

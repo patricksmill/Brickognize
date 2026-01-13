@@ -1,0 +1,37 @@
+{
+  "configurations" : [
+    {
+      "id" : "9786B6E7-5F4F-4285-B26A-741740D3854C",
+      "name" : "Test Scheme Action",
+      "options" : {
+
+      }
+    }
+  ],
+  "defaultOptions" : {
+    "targetForVariableExpansion" : {
+      "containerPath" : "container:Brickognize.xcodeproj",
+      "identifier" : "E814F3ED2E563C7E00ECB72B",
+      "name" : "Brickognize"
+    }
+  },
+  "testTargets" : [
+    {
+      "parallelizable" : true,
+      "target" : {
+        "containerPath" : "container:Brickognize.xcodeproj",
+        "identifier" : "E814F3FC2E563C8000ECB72B",
+        "name" : "BrickognizeTests"
+      }
+    },
+    {
+      "parallelizable" : true,
+      "target" : {
+        "containerPath" : "container:Brickognize.xcodeproj",
+        "identifier" : "E814F4062E563C8000ECB72B",
+        "name" : "BrickognizeUITests"
+      }
+    }
+  ],
+  "version" : 1
+}

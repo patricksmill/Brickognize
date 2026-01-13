@@ -27,6 +27,7 @@
 		E814F3EE2E563C7E00ECB72B /* Brickognize.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Brickognize.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E814F3FD2E563C8000ECB72B /* BrickognizeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BrickognizeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E814F4072E563C8000ECB72B /* BrickognizeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BrickognizeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E8E161422F15DE8D00DC4124 /* Brickognize.xctestplan */ = {isa = PBXFileReference; lastKnownFileType = text; path = Brickognize.xctestplan; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -75,6 +76,7 @@
 		E814F3E52E563C7E00ECB72B = {
 			isa = PBXGroup;
 			children = (
+				E8E161422F15DE8D00DC4124 /* Brickognize.xctestplan */,
 				E814F3F02E563C7E00ECB72B /* Brickognize */,
 				E814F4002E563C8000ECB72B /* BrickognizeTests */,
 				E814F40A2E563C8000ECB72B /* BrickognizeUITests */,
